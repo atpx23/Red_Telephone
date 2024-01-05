@@ -232,6 +232,7 @@ audio{
     padding: 0 10px;
     background: #0ef;
     border-radius: 3px;
+    animation-delay: 2s;
 }
 
 .btn{
