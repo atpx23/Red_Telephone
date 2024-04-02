@@ -71,7 +71,7 @@ body{
     animation-delay: .7s;
 }
 .home-content i{
-    font-size: 7px;
+    font-size: 10px;
     opacity: 0.5;
     animation: slideBottom 1s ease forwards;
     animation-delay: .7s;
