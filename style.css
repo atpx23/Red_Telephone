@@ -71,8 +71,8 @@ body{
     animation-delay: .7s;
 }
 .note i{
-    font-size: 15px;
-    opacity: 0.3;
+    font-size: 10px;
+    opacity: 0.5;
     animation: slideBottom 1s ease forwards;
     animation-delay: .7s;
 }
