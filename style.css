@@ -70,8 +70,8 @@ body{
     animation: slideTop 1s ease forwards;
     animation-delay: .7s;
 }
-.note i{
-    font-size: 10px;
+.home-content i{
+    font-size: 7px;
     opacity: 0.5;
     animation: slideBottom 1s ease forwards;
     animation-delay: .7s;
