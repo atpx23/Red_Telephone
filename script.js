@@ -3,7 +3,7 @@ var typed = new Typed(".multiple-text", {strings: ["coding...","thinking about y
 
 
 
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbxMCueNfv6LWXHpUoK_pVi-SP9gQdDmMzBtYMTdt47YAg8qWjQ9HAySM-V2wGpoC184/exec'
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxwT4Ef5XzxGtJW7ze3RUpA0qMLcB7v_nSS6Ics5GROYFsBAslPPs_mYxZivJecwBtc/exec'
   const form = document.forms['submit-to-google-sheet']
   const tb = document.getElementById('tb')
 
