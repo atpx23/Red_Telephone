@@ -15,3 +15,33 @@ var typed = new Typed(".multiple-text", {strings: ["coding...","thinking about y
       })
       .catch(error => console.error('Error!', error.message))
   })
+
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const form = document.querySelector('form[name="submit-to-google-sheet"]');
+    const inputBox = document.getElementById("Noidungtinnhan");
+    const toast = document.getElementById("toast");
+
+    form.addEventListener("submit", function (event) {
+        event.preventDefault(); // Ngăn chặn reload trang khi submit
+
+        if (inputBox.value.trim() !== "") {
+            // Hiển thị thông báo
+            showToast("Got it, my boss won't know who u are...");
+
+            // Xóa nội dung ô input
+            inputBox.value = "";
+        } else {
+            showToast("Oops, write something!!!");
+        }
+    });
+
+    function showToast(message) {
+        toast.textContent = message; 
+        toast.classList.add("show");
+
+        setTimeout(() => {
+            toast.classList.remove("show");
+        }, 3000); // Ẩn sau 3 giây
+    }
+});
