@@ -6,8 +6,13 @@
 }
 
 body{
-    background: #1f242d;
-    color: #fff;
+/*     background: #1f242d;
+    color: #fff; */
+    background-image: url('su35.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 100vh; 
 }
 
 .header{
@@ -94,7 +99,7 @@ body{
     animation-delay: 1s;
 }
 .home-img img{
-    max-width: 700px;
+    max-width: 450px;
     margin-right: -20px;
     opacity: 0;
     animation: slideLeft 1.5s ease forwards, floatImg 4s ease-in-out infinite;
