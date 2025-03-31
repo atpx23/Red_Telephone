@@ -6,13 +6,13 @@
 }
 
 body{
-/*     background: #1f242d;
+    /* background: #1f242d;
     color: #fff; */
-    background-image: url('su35.jpg'); 
-    background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat; 
-    height: 100vh; 
+    background-image: url('su35.jpg'); /* Đường dẫn ảnh */
+    background-size: cover; /* Ảnh phủ kín màn hình */
+    background-position: center; /* Căn giữa ảnh */
+    background-repeat: no-repeat; /* Không lặp lại ảnh */
+    height: 100vh; /* Chiều cao toàn màn hình */
 }
 
 .header{
@@ -259,3 +259,30 @@ audio{
     font-weight: 700;
 }
 
+
+
+/* Toast Notification */
+.toast {
+    visibility: hidden;
+    min-width: 250px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 12px;
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.5s, bottom 0.5s;
+}
+
+.toast.show {
+    visibility: visible;
+    opacity: 1;
+    bottom: 70px;
+}
