@@ -6,13 +6,13 @@
 }
 
 body{
-    /* background: #1f242d;
-    color: #fff; */
-    background-image: url('su35.jpg'); /* Đường dẫn ảnh */
-    background-size: cover; /* Ảnh phủ kín màn hình */
-    background-position: center; /* Căn giữa ảnh */
-    background-repeat: no-repeat; /* Không lặp lại ảnh */
-    height: 100vh; /* Chiều cao toàn màn hình */
+    background: #1f242d;
+    color: #fff;
+    /* background-image: url('su35.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh;  */
 }
 
 .header{
@@ -210,7 +210,7 @@ audio{
 .inputBox{
     padding-top: 15px;
     position: relative;
-    width: 300px;
+    width: 400px;
 }
 .inputBox input{
     width: 100%;
