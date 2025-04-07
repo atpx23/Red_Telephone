@@ -1,4 +1,4 @@
-var typed = new Typed(".multiple-text", {strings: ["coding...","thinking about you...", "missing you..."], typeSpeed: 100,backSpeed: 100, backDelay: 1000, loop: true});
+var typed = new Typed(".multiple-text", {strings: ["Drop me a message if you want to talk...","I'm here for you and ready to listen.","See ya....."], typeSpeed: 60,backSpeed: 30, backDelay: 600, loop: true});
 
 
 
@@ -27,7 +27,7 @@ var typed = new Typed(".multiple-text", {strings: ["coding...","thinking about y
 
         if (inputBox.value.trim() !== "") {
             // Hiển thị thông báo
-            showToast("Got it, my boss won't know who u are...");
+            showToast("Got your message – DDT here!");
 
             // Xóa nội dung ô input
             inputBox.value = "";
@@ -45,3 +45,4 @@ var typed = new Typed(".multiple-text", {strings: ["coding...","thinking about y
         }, 3000); // Ẩn sau 3 giây
     }
 });
+
