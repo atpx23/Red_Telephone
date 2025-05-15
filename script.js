@@ -1,4 +1,4 @@
-var typed = new Typed(".multiple-text", {strings: ["Drop me a message if you want to talk...","I'm here for you and ready to listen.","See ya....."], typeSpeed: 60,backSpeed: 30, backDelay: 600, loop: true});
+var typed = new Typed(".multiple-text", {strings: ["Nice to meet u....."], typeSpeed: 60,backSpeed: 30, backDelay: 600, loop: true});
 
 
 
